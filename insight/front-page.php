@@ -108,17 +108,17 @@
           <div class="contacts__social">
             <table>
               <tr>
-                <td><i class="fa-solid fa-map-pin"></i></td>
+                <td><i class="<?php echo get_field('contact_social_1') ?>"></i></td>
                 <td><?php echo get_field('contacts_location') ?></td>
               </tr>
 
               <tr>
-                <td><i class="fa-solid fa-phone"></i></td>
+                <td><i class="<?php echo get_field('contact_social_2') ?>"></i></td>
                 <td><?php echo get_field('contacts_phone') ?></td>
               </tr>
 
               <tr>
-                <td><i class="fa-solid fa-envelope"></i></td>
+                <td><i class="<?php echo get_field('contact_social_3') ?>"></i></td>
                 <td><?php echo get_field('contacts_email') ?></td>
               </tr>
             </table>
